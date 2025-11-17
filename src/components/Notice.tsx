@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 
-const Notice = () => {
+const Notice = (): JSX.Element => {
   return (
     <div className="lg:w-4/12">
 
@@ -7,7 +8,7 @@ const Notice = () => {
         
         <div className="bg-amber-300 h-96">
             <img className="w-full h-40 border" src="#" alt="Nocite image"/>
-            <p> ডাটাবেজে কোনো নোটিশ পাওয়া যায়নি </p>
+            <p> ডাটাবেজে কোনো নোটিশ পাওয়া যায়নি </p>
         </div>
 
     </div>

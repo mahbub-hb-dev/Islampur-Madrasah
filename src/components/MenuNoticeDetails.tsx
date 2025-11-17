@@ -1,8 +1,10 @@
+import { JSX } from 'react';
+
 import Details from "./Details"
 import Menu from "./Menu"
 import Notice from "./Notice"
 
-const MenuNoticeDetails = () => {
+const MenuNoticeDetails = (): JSX.Element => {
   return (
     <div className="lg:flex m-3 mb-7">
         <Menu />

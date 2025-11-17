@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 
-const Carousel = () => {
+const Carousel = (): JSX.Element => {
   return (
     <div id="default-carousel" className="relative w-full lg:w-8/12 lg:mr-3" data-carousel="slide">
             {/* Carousel wrapper */}

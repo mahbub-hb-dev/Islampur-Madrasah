@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 
-const Facebook = () => {
+const Facebook = (): JSX.Element => {
   return (
     <div className="lg:w-4/12">
         <p className="text-center font-[200] text-xl text-white border p-0.5 bg-green-600 mb-4"> ANOTHER WEBSITE </p>

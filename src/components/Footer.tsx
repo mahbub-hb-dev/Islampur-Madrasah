@@ -1,5 +1,6 @@
+import { JSX } from 'react';
 
-const Footer = () => {
+const Footer = (): JSX.Element => {
   return (
     <footer className="bg-amber-300 px-3 py-10">
       <div>

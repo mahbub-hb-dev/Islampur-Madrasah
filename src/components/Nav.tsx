@@ -1,6 +1,6 @@
-import React from 'react'
+import { JSX } from 'react';
 
-const Nav = () => {
+const Nav = (): JSX.Element => {
   return (
     <nav className="bg-white border border-gray-200 dark:bg-gray-900 dark:border-gray-700 w-full z-40 sticky top-0 left-0">
       <div className="max-w-screen-xl flex flex-wrap items-center lg:justify-center mx-auto p-4">

@@ -1,6 +1,6 @@
-import React from 'react'
+import { JSX } from 'react';
 
-const Menu = () => {
+const Menu = (): JSX.Element => {
   return (
     <div className="lg:w-2/12">
 

@@ -6,7 +6,7 @@ import Hero from './components/Hero'
 import MenuNoticeDetails from './components/MenuNoticeDetails'
 import Nav from './components/Nav'
 
-function App() {
+function App(): JSX.Element {
 
   return (
     <>
